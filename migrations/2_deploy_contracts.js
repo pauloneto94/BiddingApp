@@ -3,5 +3,5 @@ var Bidding = artifacts.require("./Bidding.sol");
 
 module.exports = function(deployer) {
   // #2 Deploy the instance of the contract
-  deployer.deploy(Bidding);//, 10);
+  deployer.deploy(Bidding, 'Bola', "Oval", 20, 10);//, 10);
 };
